@@ -121,7 +121,7 @@ const Notes: React.FC<NotesProps> = ({ timestamp, videoId, player }) => {
                                     <form>
                                         <input
                                             type='text'
-                                            value={note.content}
+                                            // value={note.content}
                                             onChange={(e) => setNoteContent(e.target.value)}
                                             className='border border-gray-200 rounded-md w-full p-2'
                                             placeholder='Edit your note here'
